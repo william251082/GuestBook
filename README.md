@@ -1,6 +1,6 @@
 # Guest Book
 
-An guest book app to register, login, post and list messages. Enjoy!
+A guest book app to register, login, post and list messages. Enjoy!
 
 ### Running
 
