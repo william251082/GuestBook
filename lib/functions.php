@@ -31,9 +31,9 @@ function get_posts($limit = null)
     return $pets;
 }
 
-function save_posts($petsToSave)
+function save_posts($postsToSave)
 {
-    $json = json_encode($petsToSave, JSON_PRETTY_PRINT);
+    $json = json_encode($postsToSave, JSON_PRETTY_PRINT);
     file_put_contents('data/posts.json', $json);
 }
 
